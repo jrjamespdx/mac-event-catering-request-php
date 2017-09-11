@@ -122,33 +122,33 @@
             <div class=“row”>
               <div class=“well span7” id=“food”> 
                 <h5>Food and Beverage Order (REQUIRED):</h5>                
-                <input type=“checkbox” name=“food[0]” value=“Ice Water”/> Ice Water <input name=“ct[0]” class=“input-mini” /><br/>
-                <input type=“checkbox” name=“food[1]” value=“Coffee, Tea, Decaf” /> Coffee, Tea, Decaf <input name=“ct[1]” class=“input-mini” /> <br/>
-                <input type=“checkbox” name=“food[2]” value=“Lemonade” /> Lemonade <input name=“ct[2]” class=“input-mini”/> Airpot(s) <br/>
-                <input type=“checkbox” name=“food[3]” value=“Strawberry Lemonade” /> Strawberry Lemonade <input name=“ct[3]” class=“input-mini”/> Airpot(s) <br/>
-                <input type=“checkbox” name=“food[4]” value=“Iced Tea” /> Iced Tea <input name=“ct[4]” class=“input-mini”/> Airpot(s) <br/>
-                <input type=“checkbox” name=“food[5]” value=“Assorted Sodas and Mineral Waters” /> Assorted Sodas and Mineral Waters <input name=“ct[5]” class=“input-mini”/> <br/>
-                <input type=“checkbox” name=“food[6]” value=“Gatorade (5 Gallons)” /> Gatorade (5 Gallons) <input name=“ct[6]” class=“input-mini”/> Orders <br/>
+                <input type=“checkbox” name=“food[0]” value=“Ice Water”/> Ice Water <input name=“ct[0]” class=“input-mini” /> Per Person <br/>
+                <input type=“checkbox” name=“food[1]” value=“Coffee, Tea, Decaf” /> Coffee, Tea, Decaf <input name=“ct[1]” class=“input-mini” /> Per Person <br/>
+                <input type=“checkbox” name=“food[2]” value=“Lemonade” /> Lemonade <input name=“ct[2]” class=“input-mini”/> Airpot(s) Per Gallon <br/>
+                <input type=“checkbox” name=“food[3]” value=“Strawberry Lemonade” /> Strawberry Lemonade <input name=“ct[3]” class=“input-mini”/> Per Gallon<br/>
+                <input type=“checkbox” name=“food[4]” value=“Iced Tea” /> Iced Tea <input name=“ct[4]” class=“input-mini”/> Per Gallon <br/>
+                <input type=“checkbox” name=“food[5]” value=“Assorted Sodas and Mineral Waters” /> Assorted Sodas and Mineral Waters <input name=“ct[5]” class=“input-mini”/> Per Person <br/>
+                <input type=“checkbox” name=“food[6]” value=“Gatorade (5 Gallons)” /> Gatorade (5 Gallons) <input name=“ct[6]” class=“input-mini”/> Per 5 Gallons <br/>
 
-                <input type=“checkbox” name=“food[7]” value=“6 inch Sub Sandwich Platter“ /> 6 inch Sub Sandwich Platter <input name=“ct[7]” class=“input-mini”/> Platters <br/>
-                <input type=“checkbox” name=“food[8]” value=“Individual Bags of Chips, Pretzels, and Tortilla Chips“ /> Individual Bags of Chips, Pretzels, and Tortilla Chips <input name=“ct[6]” class=“input-mini”/> Bags <br/>
-                <input type=“checkbox” name=“food[9]” value=“Pretzels” /> Pretzels <input name=“ct[9]” class=“input-mini”/> Bowls <br/>
-                <input type=“checkbox” name=“food[10]” value=“Snack Mix” /> Snack Mix <input name=“ct[10]” class=“input-mini”/> Bowls<br/>
-                <input type=“checkbox” name=“food[11]” value=“Mixed Nuts” /> Mixed Nuts <input name=“ct[11]” class=“input-mini”/> Lb <br/>
-                <input type=“checkbox” name=“food[12]” value=“Assorted Candy Bars” /> Assorted Candy Bars <input name=“ct[12]” class=“input-mini”/> Dozen <br/>
-                <input type=“checkbox” name=“food[13]” value=“Whole Fresh Fruit“ /> Whole Fresh Fruit <input name=“ct[13]” class=“input-mini” /> Pieces <br/>
-                <input type=“checkbox” name=“food[14]” value=”Sliced Fresh Fruit“ /> Sliced Fresh Fruit <input name=“ct[14]” class=“input-mini” /> Pieces <br/>
-                <input type=“checkbox” name=“food[15]” value=“Domestic Cheese Board“ /> Domestic Cheese Board <input name=“ct[15]” class=“input-mini” /> Orders <br/>
-                <input type=“checkbox” name=“food[16]” value=“Mediterranean Antipasto“ /> Mediterranean Antipasto <input name=“ct[16]” class=“input-mini” /> Orders <br/>
-                <input type=“checkbox” name=“food[17]” value=“Vegatable Crudite“ /> Vegetable Crudite <input name=“ct[17]” class=“input-mini” /> Orders <br/>
-                <input type=“checkbox” name=“food[18]” value=“Tortilla Chips with Guacamole“ /> Tortilla Chips with Guacamole <input name=“ct[18]" class="input-mini" /> Pieces <br/>
-                <input type="checkbox" name="food[19]" value="Tortilla Chips with Salsa" /> Tortilla Chips with Salsa <input name="ct[19]" class="input-mini" /> Pieces <br/>
-                <input type="checkbox" name="food[20]" value="Pita Chips and Hummus" /> Pita Chips and Hummus <input name="ct[20]" class="input-mini" /> Pieces <br/>
-                <input type="checkbox" name="food[21]" value="Granola Bars“ /> Granola Bars <input name="ct[21]" class="input-mini" /> Pieces <br/>
-                <input type="checkbox" name="food[22]" value="Cookies“ /> Cookies <input name="ct[22]" class="input-mini" /> Pieces <br/>
-                <input type="checkbox" name="food[23]" value="Chocolate Fudge Brownies“ /> Chocolate Fudge Brownies <input name="ct[23]" class="input-mini" /> Pieces <br/>
-                <input type="checkbox" name="food[24]" value="Lemon Bars“ /> Lemon Bars <input name="ct[24]" class="input-mini" /> Pieces <br/>
-				<h5>Notes: For food items on the menu that are not on this form</h5>
+                <input type=“checkbox” name=“food[7]” value=“6 inch Sub Sandwich Platter“ /> 6 inch Sub Sandwich Platter <input name=“ct[7]” class=“input-mini”/> Per Person <br/>
+                <input type=“checkbox” name=“food[8]” value=“Individual Bags of Chips, Pretzels, and Tortilla Chips“ /> Individual Bags of Chips, Pretzels, and Tortilla Chips <input name=“ct[6]” class=“input-mini”/> Per Person <br/>
+                <input type=“checkbox” name=“food[9]” value=“Pretzels” /> Pretzels <input name=“ct[9]” class=“input-mini”/> Per Bowl <br/>
+                <input type=“checkbox” name=“food[10]” value=“Snack Mix” /> Snack Mix <input name=“ct[10]” class=“input-mini”/> Per Bowl <br/>
+                <input type=“checkbox” name=“food[11]” value=“Mixed Nuts” /> Mixed Nuts <input name=“ct[11]” class=“input-mini”/> Per Bowl <br/>
+                <input type=“checkbox” name=“food[12]” value=“Assorted Candy Bars” /> Assorted Candy Bars <input name=“ct[12]” class=“input-mini”/> Per Person <br/>
+                <input type=“checkbox” name=“food[13]” value=“Whole Fresh Fruit“ /> Whole Fresh Fruit <input name=“ct[13]” class=“input-mini” /> Per Person <br/>
+                <input type=“checkbox” name=“food[14]” value=”Sliced Fresh Fruit“ /> Sliced Fresh Fruit <input name=“ct[14]” class=“input-mini” /> Per Person <br/>
+                <input type=“checkbox” name=“food[15]” value=“Domestic Cheese Board“ /> Domestic Cheese Board <input name=“ct[15]” class=“input-mini” /> Per Person <br/>
+                <input type=“checkbox” name=“food[16]” value=“Mediterranean Antipasto“ /> Mediterranean Antipasto <input name=“ct[16]” class=“input-mini” /> Per Person <br/>
+                <input type=“checkbox” name=“food[17]” value=“Vegatable Crudite“ /> Vegetable Crudite <input name=“ct[17]” class=“input-mini” /> Per Person <br/>
+                <input type=“checkbox” name=“food[18]” value=“Tortilla Chips with Guacamole“ /> Tortilla Chips with Guacamole <input name=“ct[18]" class="input-mini" /> Per Person <br/>
+                <input type="checkbox" name="food[19]" value="Tortilla Chips with Salsa" /> Tortilla Chips with Salsa <input name="ct[19]" class="input-mini" /> Per Person <br/>
+                <input type="checkbox" name="food[20]" value="Pita Chips and Hummus" /> Pita Chips and Hummus <input name="ct[20]" class="input-mini" /> Per Person <br/>
+                <input type="checkbox" name="food[21]" value="Granola Bars“ /> Granola Bars <input name="ct[21]" class="input-mini" /> Per Person <br/>
+                <input type="checkbox" name="food[22]" value="Cookies“ /> Cookies <input name="ct[22]" class="input-mini" /> Per Dozen <br/>
+                <input type="checkbox" name="food[23]" value="Chocolate Fudge Brownies“ /> Chocolate Fudge Brownies <input name="ct[23]" class="input-mini" /> Per Dozen <br/>
+                <input type="checkbox" name="food[24]" value="Lemon Bars“ /> Lemon Bars <input name="ct[24]" class="input-mini" /> Per Dozen <br/>
+				<h5>Notes: For requesting food items on the menu that are not on this form</h5>
                 <textarea rows="4" style="width:296px" id="food_notes“ name="food_notes“></textarea>
 
               </div> 
