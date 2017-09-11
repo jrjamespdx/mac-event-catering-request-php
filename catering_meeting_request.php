@@ -156,24 +156,32 @@
                 <h5>AV Resources (available for in-house meetings) REQUIRED</h5>
                 <input type="checkbox" name="av[0]" value="Screen"/> Screen<br/>
                 <input type="checkbox" name="av[1]" value="Projector"/> Projector<br/>
-                <input type="checkbox" name="av[2]" value="Whiteboard and pens"/> Whiteboard and pens<br/>
-                <input type="checkbox" name="av[3]" value="Wired microphone"/> Wired microphone<br/>
-				<input type="checkbox" name="av[5]" value="Apple TV" />Apple TV<br/>
-				<input type="checkbox" name="av[6]" value="Sony CD Player" />Sony CD Player<br/>
-				<input type="checkbox" name="av[7]" value="DVD/TV" />DVD/TV<br/>
-                <input type="checkbox" name="av[4]" value="NO AV"/> NO AV<br/>
+                <input type="checkbox" name="av[2]" value="Wired microphone"/> Wired microphone<br/>
+                <input type="checkbox" name="av[3]" value="Wired Microphone" />Wireless Microphone<br/>
+				<input type="checkbox" name="av[4]" value="Apple TV" />Apple TV<br/>
+				<input type="checkbox" name="av[5]" value="DVD/TV" />DVD/TV<br/>
+                <input type="checkbox" name="av[6]" value="Committee Package" />Committee Package<br/>
+                <input type="checkbox" name="av[7]" value="NO AV"/> NO AV<br/>
+                <p> *Committee Package:  55" monitor, DVD/Blu-Ray Player, Apple TV, VGA & HDMI, and Power Combo</p>
                 <h5>Setup Request (REQUIRED)</h5>
-              
+
+
+                <input type="radio" name="sr" id="" value="Whiteboard and Pens" /> Whiteboard and Pens<br/>
                 <input type="radio" name="sr" id="" value="Rounds of 6 no backs to front" onclick="linNo()" /> Rounds of 6 no backs to front<br/>
-                <input type="radio" name="sr" id="" value="Block" onclick="linCheck();" /> Block<br/>
+
+                <input type="radio" name="sr" id="" value="Conference" onclick="linCheck();" /> Conference<br/>
                 <input type="radio" name="sr" id="" value="Round tables" onclick="linCheck();" /> Round tables<br/>
+                <input type="radio" name="sr" id="" value="U-Shape" onclick="linCheck();" /> U-Shape<br/>
+                <input type="radio" name="sr" id="" value="Hollow Square" onclick="linCheck();" /> Hollow Square<br/>
+                <input type="radio" name="sr" id="" value="Custom" /> Custom<br/>
+                <input type="radio" name="sr" id="" value="As Is" /> As Is<br/>
                 <label class="checkbox" style="display:none;" id="linen">
                   <input type="checkbox" name="linen" value="Linen is Required" /> Linen is Required
                 </label>
                 <input type="radio" name="sr" onclick="linNo();" value="Theater"/> Theater<br/>
                 <input type="radio" name="sr" onclick="linNo();" value="Room empty"/> Room empty<br/>
                 <input type="radio" name="sr" onclick="linNo();" value="Classroom"/> Classroom<br/>
-                <h5>Notes: only for information not available to indicate above</h5>
+                <h5>Notes: for AV/Setup notes only</h5>
                 <textarea rows="4" style="width:296px" id="comments" name="comments"></textarea>
               </div>
             </div>
