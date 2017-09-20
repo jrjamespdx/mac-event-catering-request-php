@@ -58,6 +58,9 @@ function buildMeetingRequest(){
           break;
       }
       $message .= "\r\n";
+      $message .= "==============================\r\n";
+      $message .= "Additional Food NOTES:\r\n";
+      $message .= $_POST['food_notes']."\r\n";
     
     }
   }
@@ -71,7 +74,7 @@ function buildMeetingRequest(){
   $message .= "AV RESOURCES:\r\n";
   $message .= implode(', ', $_POST['av']) . "\r\n";
   $message .= "==============================\r\n";
-  $message .= "NOTES:\r\n";
+  $message .= "AV NOTES:\r\n";
   $message .= $_POST['comments']."\r\n";
   return nl2br($message);
 }
